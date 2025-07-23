@@ -34,7 +34,8 @@ def plot_debiasing_tsne(embeds_2d, words, gender_pairs, neutral_words, other_wor
     plt.ylabel("Dimension 2")
     plt.title(title)
     plt.grid(True)
-    plt.savefig('images/')
+    file = ''.join(title.lower().split())
+    plt.savefig('images/'+file+'.png', bbox_inches='tight')
     plt.show()
 
 def read_glove_vecs(glove_file):
