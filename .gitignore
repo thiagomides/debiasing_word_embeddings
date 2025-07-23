@@ -3,3 +3,4 @@ data/
 *.ipynb_checkpoints
 __pycache__
 data/.ipynb_checkpoints/glove.6B.50d-checkpoint.txt
+*.txt
